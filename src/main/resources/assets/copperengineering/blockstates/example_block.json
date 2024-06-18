@@ -1,0 +1,5 @@
+{
+    "variants": {
+        "": { "model": "copperengineering:block/example_block" }
+    }
+}
