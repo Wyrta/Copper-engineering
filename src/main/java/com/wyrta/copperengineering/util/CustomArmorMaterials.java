@@ -3,6 +3,8 @@ package com.wyrta.copperengineering.util;
 import java.util.EnumMap;
 import java.util.function.Supplier;
 
+import com.wyrta.copperengineering.CopperEngineering;
+
 import net.minecraft.Util;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.sounds.SoundEvents;
@@ -73,7 +75,7 @@ public enum CustomArmorMaterials implements StringRepresentable, ArmorMaterial {
 	}
  
 	public String getName() {
-	   return this.name;
+	   return  CopperEngineering.MODID + ":" + this.name;
 	}
  
 	public float getToughness() {

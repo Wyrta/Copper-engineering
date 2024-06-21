@@ -4,8 +4,9 @@ import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.Ingredient;
 
-public enum ModItemTier implements Tier {
-    COPPER(255, 1.6F, 2.0F, 3, 5, Ingredient.of(Items.COPPER_INGOT));
+public enum CustomItemTier implements Tier {
+    COPPER(200, 2f, 1.5f, 2, 18, Ingredient.of(Items.COPPER_INGOT));
+
 
 	private final int uses;
 	private final float speed;
@@ -14,7 +15,7 @@ public enum ModItemTier implements Tier {
 	private final int enchantmentValue;
 	private final Ingredient repairIngredient;
 
-    ModItemTier(int uses, float speed, float attackDamageBonus, int level, int enchantmentValue, Ingredient repairIngredient) {
+    CustomItemTier(int uses, float speed, float attackDamageBonus, int level, int enchantmentValue, Ingredient repairIngredient) {
 		this.uses = uses;
 		this.speed = speed;
 		this.attackDamageBonus = attackDamageBonus;

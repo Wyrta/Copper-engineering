@@ -1,5 +1,18 @@
 {
-	"item.copperengineering.copper_sword":"Copper sword",
-	"block.copperengineering.example_block":"Block demo",
-	"item.copperengineering.example_item":"Item demo"
+	"block.copperengineering.example_block":"Block Demo",
+	"item.copperengineering.example_item":"Item Demo",
+	
+	"item.copperengineering.copper_sword":"Copper Sword",
+
+	"item.copperengineering.copper_pickaxe":"Copper Pickaxe",
+	"item.copperengineering.copper_axe":"Copper Axe",
+	"item.copperengineering.copper_hoe":"Copper Hoe",
+	"item.copperengineering.copper_shovel":"Copper Shovel",
+
+	"item.copperengineering.copper_helmet":"Copper Helmet",
+	"item.copperengineering.copper_chestplate":"Copper Chestplate",
+	"item.copperengineering.copper_leggings":"Copper Leggings",
+	"item.copperengineering.copper_boots":"Copper Boots"
+
+
 }
