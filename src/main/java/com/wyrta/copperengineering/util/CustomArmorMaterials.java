@@ -16,6 +16,7 @@ import net.minecraft.world.item.ArmorMaterials;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.Ingredient;
 
+@SuppressWarnings("deprecation")
 public enum CustomArmorMaterials implements StringRepresentable, ArmorMaterial {
 
 	COPPER("copper", 5, Util.make(new EnumMap<>(ArmorItem.Type.class), (p_266652_) -> {
