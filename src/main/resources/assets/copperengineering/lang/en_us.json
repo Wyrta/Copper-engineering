@@ -12,7 +12,7 @@
 	"item.copperengineering.copper_helmet":"Copper Helmet",
 	"item.copperengineering.copper_chestplate":"Copper Chestplate",
 	"item.copperengineering.copper_leggings":"Copper Leggings",
-	"item.copperengineering.copper_boots":"Copper Boots"
+	"item.copperengineering.copper_boots":"Copper Boots",
 
-
+	"entity.copperengineering.stalker":"Stalker"
 }
